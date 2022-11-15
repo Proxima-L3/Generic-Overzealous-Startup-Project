@@ -1,0 +1,31 @@
+
+
+(done)
+
+
+(WIP)
+- _wip-loc_
+- decide on a project to make (keeping in mind key concepts in bootstrap to implement... maybe explore 
+documentation to decide what other features site/project should include)
+- make sketches of site/mini project and a list of all desired features in notebook
+
+
+(backlog)
+- make wire frames or mockups with figma (if it seems like it will take too long to learn figma, 
+just skip this step and use sketches in notebook)
+  - make room for figma on hard drive
+  - download figma
+  - learn basics of figma
+  - make wireframes/mockups
+- find way to implement following concepts in the bootstrap 5 project (use documentation to learn 
+just what is needed, when it is needed - "learning on the fly")
+    - review grid system (row classes, screen size and col number modifier classes, break points, etc)
+    - containers
+    - jumbotrons
+    - buttons
+    - background color
+    - forms (group, control, etc)
+    - navbars (with nav, div, a, ul, li elements... or look at documentation.. use w3 schools?..)
+    - collapse/hamburger icon
+    - connecting jquery cdn (to make bootstrap classes interactive)
+- 
