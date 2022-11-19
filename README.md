@@ -1,11 +1,11 @@
 
-<h1 align="center">Undecided Bootstrap Review Project</h1>
+<h1 align="center">Generic Overzealous Startup Project</h1>
 
 
 
 <h2>Description:</h2>
 
-A mini project aimed at reviewing/learning Bootstrap 5 via documentation.
+A website for a comedically generic and overzealous startup with extremely ambiguous intentions. Meant to be a mini project aimed at learning Bootstrap 5 via documentation, in an entertaining and satirical manner.
 
 
 <h2>Goals/Purpose:</h2>
