@@ -3,6 +3,7 @@
 FEATURE IDEAS
 
 (new features, under review)
+- maybe move contact links and search bar to second navbar (under or above first one)
 - 
 
 
