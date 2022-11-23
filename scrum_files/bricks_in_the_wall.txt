@@ -6,24 +6,101 @@ documentation to decide what other features site/project should include)
 
 
 (WIP)
-- _wip-loc_
 - make sketches of site/mini project and a list of all desired features in notebook (maybe save figma for next project)
-
+    - find way to implement following concepts in the bootstrap 5 project (use documentation to learn 
+    just what is needed, when it is needed - "learning on the fly")
+        - background color
+        - containers
+        - glyphicons
+        - navbars (with nav, div, a, ul, li elements... or look at documentation.. use w3 schools?..)
+        - collapse/hamburger icon
+        - buttons (btn, btn-default/btn-success/etc, btn-lg/btn-md/etc, etc)
+        - search bar
+        - website footer
+        - jumbotrons
+        - forms (group, control, etc)
+        - carousel
+        - images and embedded videos
+- _wip-loc_
+        - offcanvas "notifications"
+        - drop downs
+        - accordion
+        - modals
+        - scrollspy feature
+        - tooltips
+        - popovers
+        - cards
+        - pagination
+        - placeholders and animation of placeholders (for indicate content that is still loading)
+        - button groups
+        - alerts
+        - progress bars
+        - spinners
+        - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use javascript?)
+    - make list of needed bg & font colors for site (using information decided upon in wireframe)
+- 
 
 (backlog)
-- find way to implement following concepts in the bootstrap 5 project (use documentation to learn 
-just what is needed, when it is needed - "learning on the fly")
+- make base features (features that are constant throughout all pages of website)
     - review grid system (row classes, screen size and col number modifier classes, break points, etc)
-    - containers
-    - jumbotrons
-    - buttons (btn, btn-default/btn-success/etc, btn-lg/btn-md/etc, etc)
-    - background color
-    - forms (group, control, etc)
-    - navbars (with nav, div, a, ul, li elements... or look at documentation.. use w3 schools?..)
-    - collapse/hamburger icon
-    - connecting jquery cdn (to make bootstrap classes interactive)
-    - website footer
-    - search bar
-    - glyphicons
-    - carousel
-- 
+    - determine base features
+        - choose site "color pallette" (think dark & light modes)
+        - background color
+        - text font/size/color
+    - make navbar
+        - navbar colors (background color, text font/size/color)
+        - logo icon (when hovered over, animation is triggered and home icon shows up)
+        - site name next to logo
+        - hamburger icon that shows up when there isn't enough room for navbar contents
+            - make sure 3 layer icon shows up
+            - blog link
+            - about link
+            - contact link
+            - pricing link
+            - login link (login page will have link to sign up page)
+        - make sure all icons/links go somewhere (add necessary blank pages/html files/folders)
+        - search bar
+            - search icon on far right of screen
+            - actual bar (when icon is clicked, bar shows up, search icon is replaced by an x, and everything in navbar is pushed to the left.. maybe)
+    - make footer
+        - footer colors (background color, text font/size/color)
+        - contact icon links (github, discord, youtube)
+        - light/dark mode toggler icon
+        - site language picker (just icon for now.. maybe machine lang..)
+    - add misc and any other constant features
+        - html head stuff?
+
+- make homepage/landing page
+    - "jumbotron" (maybe)
+        - startup name/logo (maybe with gradient background in jumbotron section)
+        - "break" in page
+        - company overview/welcome statement
+        - "break" in page/end of jumbotron
+    - several more sections ...each section includes:
+        - (each section is supposed to be a super generic "feature"/"descriptor" of the startup.. what its "all about"...)
+        - heading/"hook statement"
+        - summary under it in regular font.. supposed to be "markety"
+        - breaks after each extra section
+
+- make blog page
+    - sorry, blog machine broke
+
+- make about page
+    - very forward over confident "mission statement" and description of "what we are all about"
+    - carousel with pictures and videos of all the happy customers (maybe short clips of yes, totally legitimate REAL customer reviews/interviews)
+
+- make contact page
+    - basic contact info
+
+- make pricing page
+    - idk yet (look for example/inspiration?)
+
+- make login page
+    - get rid of navbar contents except homepage button
+    - empty single page/frame thing
+    - login form square in center of page
+        - login title label
+        - email label and input box (require email feature)
+        - password label and input box (dots and eye icon/option to show password)
+        - add "Need an account? Sign up" link and "Forgot password?" feature/link (doesn't need to fully function yet.. this project isn't meant to be a fully functioning website, it is meant to learn basic front end features/bootstrap classes)
+        - include all features that make sure email and password are 
