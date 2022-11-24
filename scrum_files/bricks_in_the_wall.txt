@@ -21,22 +21,23 @@ documentation to decide what other features site/project should include)
         - forms (group, control, etc)
         - carousel
         - images and embedded videos
+        - scrollspy feature
+        - tooltips
+        - navs and tabs (panes with tabs/pills... might need javascript for this)
+        - cards
 - _wip-loc_
         - offcanvas "notifications"
         - drop downs
         - accordion
         - modals
-        - scrollspy feature
-        - tooltips
         - popovers
-        - cards
         - pagination
         - placeholders and animation of placeholders (for indicate content that is still loading)
         - button groups
         - alerts
         - progress bars
         - spinners
-        - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use javascript?)
+        - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use jquery?)
     - make list of needed bg & font colors for site (using information decided upon in wireframe)
 - 
 
@@ -77,23 +78,38 @@ documentation to decide what other features site/project should include)
         - company overview/welcome statement
         - "break" in page/end of jumbotron
     - several more sections ...each section includes:
-        - (each section is supposed to be a super generic "feature"/"descriptor" of the startup.. what its "all about"...)
+        - (each section is supposed to be a super generic "feature"/"descriptor" of the startup.. what its "all about" WITHOUT being forward...)
         - heading/"hook statement"
         - summary under it in regular font.. supposed to be "markety"
         - breaks after each extra section
 
 - make blog page
-    - sorry, blog machine broke
+    - sorry, blog machine broke (maybe use pagination for a bunch of empty pages... secrets of the universe?)
 
-- make about page
+- make about page (content specifics can wait or be decided when page is created... remember, this project's purpose is supposed to be about learning the basic front end web dev tools and bootstrap features, not creating a full fledged product, hence the satire)
+    - ...make sure to add: ...
     - very forward over confident "mission statement" and description of "what we are all about"
     - carousel with pictures and videos of all the happy customers (maybe short clips of yes, totally legitimate REAL customer reviews/interviews)
+    - ...
+    - "who we are"
+        - mission
+        - values
+        - ethics
+        - leadership
+    - "our impact" (include scrollspy feature for this page)
+        - economic
+        - empowerment (customers (carousel), employees (what employees), small businesses, big businesses, us (the company))
+        - community (education (stem in shools), the environment, your backyard (nightmare nightmare nightmare))
+    - "what we do"
+        - finally, a clear upfront answer... *insert the most generic brief but highly descriptive non answer*
 
-- make contact page
+- make contact page (keep extremely simple)
     - basic contact info
 
-- make pricing page
+- make pricing page (use tab panes for plans section)
     - idk yet (look for example/inspiration?)
+    - tab panes for 4 ambiguous tiers of an ambiguous service
+    - each tab pane has description of tier service, whats included, and the price (use bootstrap card feature?)
 
 - make login page
     - get rid of navbar contents except homepage button
@@ -103,4 +119,4 @@ documentation to decide what other features site/project should include)
         - email label and input box (require email feature)
         - password label and input box (dots and eye icon/option to show password)
         - add "Need an account? Sign up" link and "Forgot password?" feature/link (doesn't need to fully function yet.. this project isn't meant to be a fully functioning website, it is meant to learn basic front end features/bootstrap classes)
-        - include all features that make sure email and password are 
+        - include all features that make sure email and password are correct
