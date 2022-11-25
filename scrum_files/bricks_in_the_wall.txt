@@ -17,28 +17,31 @@ documentation to decide what other features site/project should include)
         - buttons (btn, btn-default/btn-success/etc, btn-lg/btn-md/etc, etc)
         - search bar
         - website footer
+        - drop downs
         - jumbotrons
-        - forms (group, control, etc)
-        - carousel
+        - pagination
         - images and embedded videos
         - scrollspy feature
+        - carousel
         - tooltips
         - navs and tabs (panes with tabs/pills... might need javascript for this)
         - cards
+        - forms (group, control, etc)
+        - ...
+        - Other features (currently unsure where or if they'll be present on website):
+            - offcanvas "notifications"
+            - accordion
+            - modals
+            - popovers
+            - placeholders and animation of placeholders (for indicate content that is still loading)
+            - button groups
+            - alerts
+            - progress bars
+            - spinners
+            - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use jquery?)
+            - use helpers and utilities throughout?
 - _wip-loc_
-        - offcanvas "notifications"
-        - drop downs
-        - accordion
-        - modals
-        - popovers
-        - pagination
-        - placeholders and animation of placeholders (for indicate content that is still loading)
-        - button groups
-        - alerts
-        - progress bars
-        - spinners
-        - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use jquery?)
-    - make list of needed bg & font colors for site (using information decided upon in wireframe)
+    - make list of needed bg & font colors for site (using information decided upon in wireframes)
 - 
 
 (backlog)
@@ -105,15 +108,18 @@ documentation to decide what other features site/project should include)
 
 - make contact page (keep extremely simple)
     - basic contact info
+    - links to proxima contact methods
+    - maybe support and sales sections
+    - maybe "office location" section
 
-- make pricing page (use tab panes for plans section)
-    - idk yet (look for example/inspiration?)
+- make pricing page (keep simple and use tab panes for plans section)
+    - idk yet (look for example/inspiration while creating site)
     - tab panes for 4 ambiguous tiers of an ambiguous service
     - each tab pane has description of tier service, whats included, and the price (use bootstrap card feature?)
 
 - make login page
-    - get rid of navbar contents except homepage button
-    - empty single page/frame thing
+    - get rid of all navbar contents, except for homepage button
+    - empty single page
     - login form square in center of page
         - login title label
         - email label and input box (require email feature)
