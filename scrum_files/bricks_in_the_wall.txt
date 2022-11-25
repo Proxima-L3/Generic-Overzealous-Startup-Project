@@ -3,9 +3,6 @@
 (done)
 - decide on a project to make (keeping in mind key concepts in bootstrap to implement... maybe explore 
 documentation to decide what other features site/project should include)
-
-
-(WIP)
 - make sketches of site/mini project and a list of all desired features in notebook (maybe save figma for next project)
     - find way to implement following concepts in the bootstrap 5 project (use documentation to learn 
     just what is needed, when it is needed - "learning on the fly")
@@ -40,12 +37,11 @@ documentation to decide what other features site/project should include)
             - spinners
             - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use jquery?)
             - use helpers and utilities throughout?
-- _wip-loc_
     - make list of needed bg & font colors for site (using information decided upon in wireframes)
-- 
 
-(backlog)
+(WIP)
 - make base features (features that are constant throughout all pages of website)
+- _wip-loc_
     - review grid system (row classes, screen size and col number modifier classes, break points, etc)
     - determine base features
         - choose site "color pallette" (think dark & light modes)
@@ -74,6 +70,7 @@ documentation to decide what other features site/project should include)
     - add misc and any other constant features
         - html head stuff?
 
+(backlog)
 - make homepage/landing page
     - "jumbotron" (maybe)
         - startup name/logo (maybe with gradient background in jumbotron section)
