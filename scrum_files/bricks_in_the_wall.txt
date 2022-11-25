@@ -3,6 +3,9 @@
 (done)
 - decide on a project to make (keeping in mind key concepts in bootstrap to implement... maybe explore 
 documentation to decide what other features site/project should include)
+- make generic startup logo and full screen image in illustrator
+- convert logo png to needed favicons/images
+- add tab and device favicon links to head tag of main index.html file
 - make sketches of site/mini project and a list of all desired features in notebook (maybe save figma for next project)
     - find way to implement following concepts in the bootstrap 5 project (use documentation to learn 
     just what is needed, when it is needed - "learning on the fly")
@@ -41,16 +44,11 @@ documentation to decide what other features site/project should include)
 
 (WIP)
 - make base features (features that are constant throughout all pages of website)
-- _wip-loc_
     - review grid system (row classes, screen size and col number modifier classes, break points, etc)
-    - determine base features
-        - choose site "color pallette" (think dark & light modes)
-        - background color
-        - text font/size/color
     - make navbar
         - navbar colors (background color, text font/size/color)
+- _wip-loc_
         - logo icon (when hovered over, animation is triggered and home icon shows up)
-        - site name next to logo
         - hamburger icon that shows up when there isn't enough room for navbar contents
             - make sure 3 layer icon shows up
             - blog link
@@ -67,6 +65,10 @@ documentation to decide what other features site/project should include)
         - contact icon links (github, discord, youtube)
         - light/dark mode toggler icon
         - site language picker (just icon for now.. maybe machine lang..)
+    - determine base features
+        - choose site "color pallette" (think dark & light modes)
+        - background color
+        - text font/size/color
     - add misc and any other constant features
         - html head stuff?
 
