@@ -27,6 +27,7 @@ documentation to decide what other features site/project should include)
         - navs and tabs (panes with tabs/pills... might need javascript for this)
         - cards
         - forms (group, control, etc)
+        - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use jquery?)
         - ...
         - Other features (currently unsure where or if they'll be present on website):
             - offcanvas "notifications"
@@ -38,7 +39,6 @@ documentation to decide what other features site/project should include)
             - alerts
             - progress bars
             - spinners
-            - connecting jquery cdn (to make bootstrap classes interactive... bootstrap 5 doesn't use jquery?)
             - use helpers and utilities throughout?
     - make list of needed bg & font colors for site (using information decided upon in wireframes)
 
@@ -47,15 +47,15 @@ documentation to decide what other features site/project should include)
     - review grid system (row classes, screen size and col number modifier classes, break points, etc)
     - make navbar
         - navbar colors (background color, text font/size/color)
-- _wip-loc_
-        - logo icon (when hovered over, animation is triggered and home icon shows up)
         - hamburger icon that shows up when there isn't enough room for navbar contents
             - make sure 3 layer icon shows up
             - blog link
             - about link
             - contact link
             - pricing link
-            - login link (login page will have link to sign up page)
+            - login link
+- _wip-loc_
+        - logo icon (when hovered over, animation is triggered and home icon shows up)
         - make sure all icons/links go somewhere (add necessary blank pages/html files/folders)
         - search bar
             - search icon on far right of screen
