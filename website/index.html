@@ -27,17 +27,45 @@
     <!-- Navbar -->
     <div class="container-fluid">
         <div class="row">
-            <nav class="navbar" style="background-color:#1e2020;">
+            <!-- <nav class="navbar navbar-expand-lg" style="background-color:#707676;"> -->
+            <nav class="navbar navbar-expand-lg" style="background-color:#707676;">
                 <div class="container">
                     <!-- Logo/home button -->
                     <a class="navbar-brand" href="#">
                         <img src="../assets/favicons/favicon.ico" alt="Logo" style="color:#ffffff;" 
                         width="50" height="50">
                     </a>
+                    <!-- Hamburger icon -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar collapsable links -->
+                    <div class="collapse navbar-collapse" id="mainNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Login</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
