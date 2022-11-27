@@ -46,7 +46,7 @@ documentation to decide what other features site/project should include)
 - make base features (features that are constant throughout all pages of website)
     - review grid system (row classes, screen size and col number modifier classes, break points, etc)
     - make navbar
-        - navbar colors (background color, text font/size/color)
+        - decide navbar colors (background color, text font/size/color)
         - hamburger icon that shows up when there isn't enough room for navbar contents
             - make sure 3 layer icon shows up
             - blog link
@@ -54,7 +54,11 @@ documentation to decide what other features site/project should include)
             - contact link
             - pricing link
             - login link
+        - center all navbar content in collapsed menu
 - _wip-loc_
+        - make navbar content highlighted bg in collapsed menu
+        - make navbar content text highlight when in full screen mode
+        - make hamburger icon animation turn into an x when clicked
         - logo icon (when hovered over, animation is triggered and home icon shows up)
         - make sure all icons/links go somewhere (add necessary blank pages/html files/folders)
         - search bar
