@@ -56,6 +56,7 @@ documentation to decide what other features site/project should include)
             - login link
         - center all navbar content in collapsed menu
 - _wip-loc_
+        - center hamburger icon itself
         - make navbar content highlighted bg in collapsed menu
         - make navbar content text highlight when in full screen mode
         - make hamburger icon animation turn into an x when clicked
